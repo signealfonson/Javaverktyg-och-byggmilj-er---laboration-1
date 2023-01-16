@@ -49,4 +49,10 @@
 	Git commit -m \'94Add .gitignore\'94\
 	Git push\
 18. Git tag -a v1.0 -m \'94Version 1.0\'94\
-19.}
+19. Git rebase -I HEAD~4\
+20. Git switch -c feature3\
+	Git add fix2.rtf\
+	Git commit -m \'94Update fix2.rtf with tasks 19-20\'94\
+	Git switch main\
+	Git merge \'97no-ff feature3\
+	Git push}
